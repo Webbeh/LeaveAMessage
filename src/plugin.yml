@@ -1,0 +1,11 @@
+version: 1.0.0
+name: LeaveAMessage
+author: Weby
+main: net.raidstone.leaveamessage.LeaveAMessage
+
+commands:
+  leaveamessage:
+    description: Leaves a message for the users to see !
+    usage: /leaveamessage [message] - [message] is empty if you want to disable the messages
+    aliases: lam
+    permission: leaveamessage.use
