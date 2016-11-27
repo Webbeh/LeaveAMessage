@@ -71,7 +71,7 @@ public class LeaveAMessage extends JavaPlugin implements Listener
     }
     
     @EventHandler
-    public void onPlayerLogin(PlayerJoinEvent event)
+    public void onPlayerLogin(final PlayerJoinEvent event)
     {
         if(message==null) return;
         new BukkitRunnable()
